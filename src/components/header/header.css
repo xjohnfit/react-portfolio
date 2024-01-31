@@ -27,21 +27,21 @@ header {
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    left: 0;
-    bottom: 15rem;
+    left: 15rem;
+    bottom: 5rem;
 }
 
 .header__socials::after {
     content: '';
     width: 1px;
     height: 3rem;
-    background: var(--color-primary);
+    background-color: rgb(0, 0, 0);
 }
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 60rem;
+    height: 100vh;
     position: absolute;
     left: calc(50% - 11rem);
     border-radius: 12rem 12rem 0 0;

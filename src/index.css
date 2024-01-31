@@ -69,6 +69,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section>h2,
@@ -91,7 +92,7 @@ section>h2 {
 }
 
 a {
-    color: var(--color-primary);
+    color: rgb(75, 91, 182);
     transition: var(--transition);
 }
 
