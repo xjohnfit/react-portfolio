@@ -37,10 +37,10 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-black);
     line-height: 1.7;
     background-image: url(../src/assets/page-bg-5.jpg);
-    background-size: cover;
+    background-size: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -75,11 +75,11 @@ section {
 section>h2,
 section>h5 {
     text-align: center;
-    color: var(--color-light);
+    color: var(--color-black);
 }
 
 section>h2 {
-    color: var(--color-primary);
+    color: var(--color-black);
     margin-bottom: 3rem;
 }
 
@@ -112,9 +112,9 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: rgba(255, 255, 255, 0.6);
     color: var(--color-bg);
-    border-color: transparent;
+    border: 1px solid rgb(0 , 0, 0)
 }
 
 .btn-primary {
