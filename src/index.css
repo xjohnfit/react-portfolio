@@ -36,10 +36,9 @@ html {
 
 body {
     font-family: "Poppins", sans-serif;
-    background: var(--color-bg);
     color: var(--color-black);
     line-height: 1.7;
-    background-image: url(../src/assets/page-bg-5.jpg);
+    background: linear-gradient(90deg,  rgba(255, 255, 255, 0.5), rgba(196, 192, 192, 0.8) 50%, rgba(255, 255, 255, 0.5));
     background-size: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -130,6 +129,7 @@ img {
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
+
     .container {
         width: var(--container-width-md);
     }
@@ -141,6 +141,7 @@ img {
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
+
     .container {
         width: var(--container-width-sm);
     }

@@ -38,7 +38,11 @@ const About = () => {
             </article>
           </div>
           <div className="background__container">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea nemo quas culpa quae, incidunt, modi sint tempora alias officia omnis. Sequi, magnam! Consequuntur tenetur unde placeat quae aspernatur porro.</p>
+            <p>Full-stack web developer with over 7 years of experience analyzing, designing,
+developing, and integrating front-end & back-end-based applications, possesses
+knowledge of web applications using HTML, CSS, JavaScript, ReactJS, PHP and
+Laravel. Key achievement: created a web application consuming an API that
+allowed users to search for the weather anywhere in the world.</p>
           </div>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
