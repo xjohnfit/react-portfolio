@@ -37,7 +37,9 @@ const About = () => {
               <small>100+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea nemo quas culpa quae, incidunt, modi sint tempora alias officia omnis. Sequi, magnam! Consequuntur tenetur unde placeat quae aspernatur porro.</p>
+          <div className="background__container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ea nemo quas culpa quae, incidunt, modi sint tempora alias officia omnis. Sequi, magnam! Consequuntur tenetur unde placeat quae aspernatur porro.</p>
+          </div>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
