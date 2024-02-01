@@ -45,10 +45,9 @@
 }
 
 .about__card:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px dashed var(--color-black);
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--color-white);
     cursor: default;
-    color: rgb(255, 255, 255);
 }
 
 .about__icon {
