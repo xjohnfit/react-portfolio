@@ -5,7 +5,7 @@
 }
 
 .experience__container > div {
-    background: transparent;
+    background: rgb(255, 255, 255);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -13,8 +13,7 @@
 }
 
 .experience__container > div:hover {
-    background: transparent;
-    border-color: rgb(0, 0, 0);
+    border: 1px solid black;
     cursor: default;
 }
 
@@ -25,15 +24,24 @@
     
 }
 
+.experience__frontend > h3 {
+    text-align: center;
+}
+
 .experience__details {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: space-around;
+}
+
+.inline {
+    display: inline-block;
 }
 
 .experience__details-icon {
     margin-top: 6px;
     color: var(--color-primary);
+    margin-right: 0.5rem;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

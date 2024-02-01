@@ -17,7 +17,7 @@ header {
     gap: 1.2rem;
     justify-content: center;
     margin-top: 1rem;
-    
+
 }
 
 /* SOCIALS */
@@ -30,13 +30,25 @@ header {
     position: absolute;
     left: 15rem;
     bottom: 5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.header__socials>a {
+    color: rgb(255, 255, 255);
+    transition: var(--transition);
+}
+
+.header__socials>a:hover {
+    color: var(--color-black);
 }
 
 .header__socials::after {
     content: '';
     width: 1px;
-    height: 3rem;
-    background-color: rgb(0, 0, 0);
+    height: 5rem;
+    background-color: rgb(255, 255, 255);
 }
 
 .me {
@@ -64,6 +76,12 @@ header {
     header {
         height: 100vh;
     }
+
+    .header__socials,
+    .scroll__down {
+        left: 3rem;
+        bottom: 30rem;
+    }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
@@ -72,7 +90,8 @@ header {
         height: 100vh;
     }
 
-    .header__socials, .scroll__down {
+    .header__socials,
+    .scroll__down {
         display: none;
     }
 }
