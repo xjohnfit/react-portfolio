@@ -74,11 +74,11 @@ section {
 section>h2,
 section>h5 {
     text-align: center;
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
 section>h2 {
-    color: var(--color-black);
+    color: var(--color-white);
     margin-bottom: 3rem;
 }
 
@@ -137,6 +137,10 @@ img {
     .section {
         margin-top: 6rem;
     }
+
+    body {
+        background: linear-gradient(90deg, rgba(168, 162, 162, 0.8), rgba(255, 255, 255, 0.5) 50%, rgba(168, 162, 162, 0.8));
+    }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
@@ -148,5 +152,10 @@ img {
 
     .section>h2 {
         margin-bottom: 2rem;
+    }
+
+    body {
+        background: linear-gradient(90deg, rgba(168, 162, 162, 0.8), rgba(255, 255, 255, 0.5) 50%, rgba(168, 162, 162, 0.8));
+        color: var(--color-black);
     }
 }

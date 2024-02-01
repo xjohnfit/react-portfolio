@@ -1,6 +1,7 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { TiHtml5 } from "react-icons/ti";
 const Experience = () => {
   return (
     <section id="experience">
@@ -13,7 +14,7 @@ const Experience = () => {
             <article className="experience__details">
               
               <div>
-              <BsPatchCheckFill className="experience__details-icon" />
+              <TiHtml5 className="experience__details-icon" size={30} />
                 <h4 className="inline">HTML</h4>
                 <br />
                 <small>Experienced</small>
