@@ -5,7 +5,8 @@
 }
 
 .experience__container > div {
-    background: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);
+    color: var(--color-white);
     padding: 2rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -14,8 +15,6 @@
 }
 
 .experience__container > div:hover {
-    background: rgba(0, 0, 0, 0.5);
-    color: var(--color-white);
     cursor: default;
 }
 
@@ -29,6 +28,7 @@
 h3 {
     text-align: center;
     display: block;
+    padding-bottom: 0.5rem;
 }
 
 
