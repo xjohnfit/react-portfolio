@@ -13,6 +13,7 @@ import { TbBrandAlpineJs } from "react-icons/tb";
 const Experience = () => {
   return (
     <section id="experience">
+      <h5>Talents or specific skills I'm good at</h5>
       <h2>Skills</h2>
 
       <div className="container experience__container">
