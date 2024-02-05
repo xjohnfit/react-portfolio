@@ -98,6 +98,7 @@ const Portfolio = () => {
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Live Demo
                 </a>
