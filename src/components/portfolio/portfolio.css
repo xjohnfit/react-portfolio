@@ -24,7 +24,8 @@
     border-radius: 1.5rem;
     overflow: hidden;
     display: flex;
-    align-content: center;
+    justify-content: center;
+
 }
 
 .portfolio__item h3 {
