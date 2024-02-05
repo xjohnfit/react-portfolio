@@ -18,10 +18,6 @@ const Header = () => {
 
 
         <HeaderSocial />
-
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
       </div>
       
     </header>

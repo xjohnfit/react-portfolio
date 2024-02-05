@@ -28,6 +28,7 @@
     margin: 0.8rem auto 0;
 }
 
+
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .container.testimonials__container {
