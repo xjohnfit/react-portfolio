@@ -1,6 +1,8 @@
 import React from "react";
 import "./testimonials.css";
-import AVATAR1 from "../../assets/headshot.jpg";
+import AVATAR1 from "../../assets/testimonial-photo1.jpg";
+import AVATAR2 from "../../assets/testimonial-photo2.jpg";
+import AVATAR3 from "../../assets/testimonial-photo3.jpg";
 
 // import Swiper core and required modules
 import { Navigation, Pagination } from 'swiper/modules';
@@ -14,21 +16,21 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVATAR1,
-    name: "Tina Snow",
+    name: "Mike",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur officia repellat doloribus natus ratione cum, amet facilis ex placeat quos alias accusamus commodi iusto. Magnam rerum illo odit reiciendis iusto.",
+      "I cannot express enough gratitude for the exceptional website development services provided by John. From the initial consultation to the final launch, their team demonstrated a level of professionalism, expertise, and creativity that exceeded our expectations.",
   },
   {
-    avatar: AVATAR1,
-    name: "John",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur officia repellat doloribus natus ratione cum, amet facilis ex placeat quos alias accusamus commodi iusto. Magnam rerum illo odit reiciendis iusto.",
-  },
-  {
-    avatar: AVATAR1,
+    avatar: AVATAR2,
     name: "Chantal",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur officia repellat doloribus natus ratione cum, amet facilis ex placeat quos alias accusamus commodi iusto. Magnam rerum illo odit reiciendis iusto.",
+      "The website developed has not only elevated our online presence but has also significantly enhanced the overall user experience for our customers. The seamless navigation, responsive design, and intuitive layout have received positive feedback from both clients and internal stakeholders.",
+  },
+  {
+    avatar: AVATAR3,
+    name: "Jess",
+    review:
+      "I highly recommend John for anyone seeking top-notch website development services. His expertise, professionalism, and commitment to client satisfaction make him a standout choice in the industry. Thank you.",
   },
 ];
 
