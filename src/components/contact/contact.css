@@ -53,6 +53,11 @@ form {
     gap: 1.5rem;
 }
 
+form button {
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
 input, textarea {
     width: 100%;
     padding: 1.5rem;
@@ -62,6 +67,7 @@ input, textarea {
     resize: none;
     color: var(--color-white);
     font-size: 1rem;
+    font-family: "Poppins", sans-serif;
 }
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */

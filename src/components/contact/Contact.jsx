@@ -13,19 +13,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm('service_f3oglf7', 'template_1p4q2oe', form.current, {
-        publicKey: 'QidgnFSXNFOJvIK-z',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  }
+    emailjs.sendForm('service_f3oglf7', 'template_1p4q2oe', form.current, 'bg-k3rJmYSXFbgXsz')
+    e.target.reset();
+  };
 
   return (
     <section id='contact'>
