@@ -74,20 +74,30 @@ header {
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     header {
-        height: 100vh;
+        height: 60vh;
     }
 
-    .header__socials,
-    .scroll__down {
-        left: 3rem;
-        bottom: 30rem;
+    .header__socials {
+        left: 10rem;
+        top: 10rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 80vh;
+    }
+
+    .header__socials {
+        left: 5rem;
+        top: 10rem;
     }
 }
 
 /* MEDIA QUERIES (SMALL DEVICES) */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 80vh;
     }
 
     .header__socials,

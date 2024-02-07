@@ -129,6 +129,23 @@ img {
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
+  body:before {
+    content: "";
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: url(../src/assets/page-bg_3_50.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
   .container {
     width: var(--container-width-md);
   }
@@ -167,10 +184,6 @@ img {
 
   .section > h2 {
     margin-bottom: 2rem;
-  }
-
-  body {
-    color: var(--color-black);
   }
 
   body:before {
