@@ -9,6 +9,7 @@ import IMG6 from "../../assets/portfolio-06.jpg";
 import IMG7 from "../../assets/portfolio-07.png";
 import IMG8 from "../../assets/portfolio-08.jpg";
 import IMG9 from "../../assets/portfolio-09.png";
+import IMG10 from "../../assets/portfolio-10.webp"
 
 const data = [
   {
@@ -36,43 +37,50 @@ const data = [
     id: 4,
     image: IMG4,
     title: "Flight Widget Vanilla JavaScript",
-    github: "http://github.com",
+    github: "https://github.com/xjohnfit/flight-widget-vanilla-js",
     demo: "https://flightwidget.xjohnfit.com/",
   },
   {
     id: 5,
     image: IMG5,
     title: "Vanilla JavaScript Calculator",
-    github: "http://github.com",
+    github: "https://github.com/xjohnfit/js-calculator",
     demo: "https://calculator.xjohnfit.com/",
   },
   {
     id: 6,
     image: IMG6,
     title: "Chantal's Penguin",
-    github: "http://github.com",
+    github: "https://github.com/xjohnfit/fcc-penguin",
     demo: "https://penguin.xjohnfit.com/",
   },
   {
     id: 7,
     image: IMG7,
     title: "Weather APP",
-    github: "http://github.com",
+    github: "https://github.com/xjohnfit/react-weather-app",
     demo: "https://xjohnfit.github.io/react-weather-app/",
   },
   {
     id: 8,
     image: IMG8,
     title: "City Skyline",
-    github: "http://github.com",
+    github: "https://github.com/xjohnfit/fcc-city-skyline",
     demo: "https://skyline.xjohnfit.com/",
   },
   {
     id: 9,
     image: IMG9,
     title: "Crypto Dashboard",
-    github: "http://github.com",
+    github: "https://github.com/xjohnfit/crypto-dashboard",
     demo: "https://xjohnfit.github.io/crypto-dashboard/",
+  },
+  {
+    id: 10,
+    image: IMG10,
+    title: "MERN BookStore App",
+    github: "https://github.com/xjohnfit/BookStore-MERN-Stack",
+    demo: "https://bookstore.codewithxjohn.com/",
   },
 ];
 
